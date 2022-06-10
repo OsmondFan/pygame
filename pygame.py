@@ -1,9 +1,9 @@
-import os
-os.chdir('../')
+import importlib
+importlib.import_module('pygame')
 
 screen = None
 print('Hi')
-import site_packages.pygame
+
 
 class display:
     def __init__(self):
