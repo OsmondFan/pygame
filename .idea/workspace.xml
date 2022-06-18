@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5207ee39-b013-4ff6-a22e-bc135cb0da75" name="Changes" comment="Added Pygame">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pygame.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pygame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygame.py" beforeDir="false" afterPath="$PROJECT_DIR$/pygame.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,10 +20,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file:///Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pygame/__init__.py" root0="SKIP_INSPECTION" />
-    <setting file="file:///Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pygame/__init__.pyi" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/Pygame.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Test.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/pygame.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />

@@ -16,9 +16,16 @@ class display:
         self.screen = [[0,0],[size[0],size[1]]]
 
     def flip(self):
-        pygame.display.flip()
+        pygame.display.update(rectangle=(self.screen[0][0],self.screen[0][1],self.screen[1][0],self.screen[1][1]))
 
     def update(self,rectangle=None):
+        '''
+
+        :param rectangle: pygame.Rect(x1,y1,x2,y2)
+        :return:
+        '''
+        pass
+
 
 def set_mode(self,size=(0,0),flags=0,depth=0,display=0,vsync=0):
     global operating_system
