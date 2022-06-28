@@ -1,1 +1,1 @@
-from Pygame import*
+from N import*

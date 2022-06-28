@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5207ee39-b013-4ff6-a22e-bc135cb0da75" name="Changes" comment="flip area updated" />
+    <list default="true" id="5207ee39-b013-4ff6-a22e-bc135cb0da75" name="Changes" comment="flip area updated">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Applications/pygame.py" beforeDir="false" afterPath="$PROJECT_DIR$/Applications/pygame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygame.py" beforeDir="false" afterPath="$PROJECT_DIR$/pygame.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +23,6 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Test.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/pygame.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -34,7 +37,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.editor&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;shared-indexes&quot;
   }
 }</component>
   <component name="RunManager" selected="Python.Pygame">
@@ -192,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656147979403</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="flip area updated">
+      <created>1656149094678</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1656149094678</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
