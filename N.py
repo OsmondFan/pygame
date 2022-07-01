@@ -38,12 +38,15 @@ class display:
         if original rectangle update area
         :return:
         '''
+
         if rectangle == None:
             pygame.display.update(rectangle=(self.screen[0][0],self.screen[0][1],self.screen[1][0],self.screen[1][1]))
         else:
-            pygame.display.update
-        pass
+            pygame.display.update(rectangle=())
 
+    def move_window(self,x,y):
+        self.screen = [[0+x,0+y],[size[0]+x,size[1]+y]]
+        return True
 
 def set_mode(self,size=(0,0),flags=0,depth=0,display=0,vsync=0):
     global operating_system
