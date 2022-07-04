@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5207ee39-b013-4ff6-a22e-bc135cb0da75" name="Changes" comment="Screen.blit update">
-      <change afterPath="$PROJECT_DIR$/moviepy-master/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moviepy-master/examples/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moviepy-master/scripts/__init__.py" afterDir="false" />
+    <list default="true" id="5207ee39-b013-4ff6-a22e-bc135cb0da75" name="Changes" comment="Added Moviepy">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/N.py" beforeDir="false" afterPath="$PROJECT_DIR$/N.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pygame.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656413326333</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added Moviepy">
+      <created>1656656291729</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1656656291729</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -243,6 +246,7 @@
     <MESSAGE value="flip area updated" />
     <MESSAGE value="Pygame added" />
     <MESSAGE value="Screen.blit update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Screen.blit update" />
+    <MESSAGE value="Added Moviepy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Moviepy" />
   </component>
 </project>

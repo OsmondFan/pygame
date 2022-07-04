@@ -1,6 +1,10 @@
 import importlib
 
 import pygame
+
+import moviepy
+
+
 from pygame import*
 operating_system = None
 print('Hi')
@@ -66,6 +70,11 @@ class universal:
 class movie:
     def __init__(self):
         pass
+
+    def show(self):
+        moviepy.show()
+
+
 
 class event:
     def __init__(self):
