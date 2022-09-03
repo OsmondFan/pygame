@@ -2,7 +2,7 @@ import importlib
 
 import pygame
 
-import moviepy
+#import moviepy
 
 
 from pygame import*
@@ -10,7 +10,7 @@ operating_system = None
 print('Hi')
 
 console = None
-scale_rate = (1,1)'''Meaning that the scale is 1x horizontal, 1x vertical'''
+scale_rate = (1,1)#Meaning that the scale is 1x horizontal, 1x vertical
 
 class display:
     def init(self):
@@ -64,7 +64,7 @@ class universal:
     class display:
         def set_mode(self,start=(0,0),end=(0,0)):
             global console
-            console = pygame.display.set_mode(start, end)
+            console = pygame.display.set_mode((start[1], end[1]))
 
 
 class movie:
@@ -146,10 +146,6 @@ screen = screen()
 event = event()
 
 
-set_mode((200,200))
-display.flip()
+universal.display.set_mode((0,500),(0,500))
 
 
-
-
-pygame.transform.smoothscale()
