@@ -56,6 +56,8 @@ def set_mode(self,size=(0,0),flags=0,depth=0,display=0,vsync=0):
     global operating_system
     operating_system = pygame.display.set_mode(size, flags, depth, display, vsync)
 
+def init():
+    pass
 
 class universal:
     def __init__(self):
@@ -64,7 +66,10 @@ class universal:
     class display:
         def set_mode(self,start=(0,0),end=(0,0)):
             global console
-            console = pygame.display.set_mode((start[1], end[1]))
+            console = pygame.display.set_mode((start[1],end[1]))
+
+        def set_caption(self,name):
+            pygame.display.set_caption(str(name))
 
 
 class movie:
@@ -140,12 +145,16 @@ class screen:
 
 
 
+
+
+
+init()
+
+
 display = display()
 universal = universal()
 screen = screen()
 event = event()
 
-
-universal.display.set_mode((0,500),(0,500))
-
+universal.display().set_mode((0,500),(0,500))
 
