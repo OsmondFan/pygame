@@ -5,6 +5,8 @@ import pygame
 #import moviepy
 
 
+
+
 from pygame import*
 operating_system = None
 print('Hi')
@@ -103,8 +105,12 @@ class screen:
     def update(self):
         pass
 
+    def fill(self,color=(0,0,0)):
+        pygame.screen.fill(color)
+
+    '''
     def blit(self,target=None,position=None):
-        '''
+
         Again here in blitting, it couldn't just let pygame
         blit away the stuff.
 
@@ -142,9 +148,10 @@ class screen:
 
 
         :return: None
-        '''
+
         constant = pygame.transform.smoothscale(target,(target.get_width()*scale_rate[0],target.get_height()*scale_rate[1]))
         screen.blit(constant, (position[0]*scale_rate[0],position[1]*scale_rate[1]))
+    '''
 
 
 class mixer:
@@ -181,3 +188,25 @@ event = event()
 
 universal.display()
 
+console = universal.display().set_mode((0,500),(0,500))
+
+pygame.init()
+running = 1
+while running:
+
+    # Did the user click the window close button?
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            running = False
+
+    # Fill the background with white
+    screen.fill((255, 255, 255))
+
+    # Draw a solid blue circle in the center
+    pygame.draw.circle(console, (0, 0, 255), (250, 250), 75)
+
+    # Flip the display
+    pygame.display.flip()
+
+# Done! Time to quit.
+pygame.quit()

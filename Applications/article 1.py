@@ -32,12 +32,12 @@ while running:
         # check for closing window
         if event.type == pygame.QUIT:
             running = False
+        print(event)
 
     # Update
     count+=1
     now = time.time()
     fps = count/(now-start)
-    fpsImage = myfont.render(str(fps), True, WHITE)
     # Draw / render
     screen.fill(BLACK)
 
