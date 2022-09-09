@@ -4,6 +4,7 @@ import pygame
 
 #import moviepy
 
+import threading
 
 
 
@@ -108,9 +109,9 @@ class screen:
     def fill(self,color=(0,0,0)):
         pygame.console.fill(color)
 
-    '''
-    def blit(self,target=None,position=None):
 
+    def blit(self,target=None,position=None):
+        '''
         Again here in blitting, it couldn't just let pygame
         blit away the stuff.
 
@@ -151,7 +152,7 @@ class screen:
 
         constant = pygame.transform.smoothscale(target,(target.get_width()*scale_rate[0],target.get_height()*scale_rate[1]))
         console.blit(constant, (position[0]*scale_rate[0],position[1]*scale_rate[1]))
-    '''
+        '''
 
 
 class mixer:
@@ -186,9 +187,9 @@ universal = universal()
 screen = screen()
 event = event()
 
-universal.display()
+#universal.display()
 
-universal.display().set_mode((0,500),(0,500))
+#universal.display.set_mode((0,500),(0,500))
 '''
 print(console)
 pygame.init()

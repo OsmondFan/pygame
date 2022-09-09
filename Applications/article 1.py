@@ -16,7 +16,7 @@ BLUE = (0, 0, 255)
 
 # initialize pygame and create window
 pygame.init()
-screen = pygame.display.set_mode((WIDTH, HEIGHT))
+#screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("My Game")
 
 
