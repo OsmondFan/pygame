@@ -160,6 +160,11 @@ class time:
         def __init__():
             pass
 
+fonts = []
+class font:
+    def Font(self,name="Times New Roman",size=12):
+        fonts.append(pygame.font.Font(name,size))
+        return pygame.font.Font(name,size)
 
 
 

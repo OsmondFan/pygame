@@ -16,13 +16,10 @@ BLUE = (0, 0, 255)
 
 # initialize pygame and create window
 pygame.init()
-pygame.mixer.init()
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("My Game")
-clock = pygame.time.Clock()
 
-myfont = pygame.font.Font(None,60)
-textImage = myfont.render("pygame", True, WHITE)
+
 # Game loop
 running = True
 count = 0
@@ -30,7 +27,6 @@ start = time.time()
 
 while running:
     # keep loop running at the right speed
-    clock.tick(FPS)
     # Process input (events)
     for event in pygame.event.get():
         # check for closing window
@@ -44,7 +40,7 @@ while running:
     fpsImage = myfont.render(str(fps), True, WHITE)
     # Draw / render
     screen.fill(BLACK)
-    screen.blit(fpsImage, (10, 100))
+
     # *after* drawing everything, flip the display
     pygame.display.flip()
 
