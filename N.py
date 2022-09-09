@@ -106,7 +106,7 @@ class screen:
         pass
 
     def fill(self,color=(0,0,0)):
-        pygame.screen.fill(color)
+        pygame.console.fill(color)
 
     '''
     def blit(self,target=None,position=None):
@@ -143,14 +143,14 @@ class screen:
         -->
 
         Here we can use
-        screen.blit(..., (position[0]*scale_rate[0],position[1]*scale_rate[1]))
+        console.blit(..., (position[0]*scale_rate[0],position[1]*scale_rate[1]))
 
 
 
         :return: None
 
         constant = pygame.transform.smoothscale(target,(target.get_width()*scale_rate[0],target.get_height()*scale_rate[1]))
-        screen.blit(constant, (position[0]*scale_rate[0],position[1]*scale_rate[1]))
+        console.blit(constant, (position[0]*scale_rate[0],position[1]*scale_rate[1]))
     '''
 
 
@@ -188,8 +188,9 @@ event = event()
 
 universal.display()
 
-console = universal.display().set_mode((0,500),(0,500))
-
+universal.display().set_mode((0,500),(0,500))
+'''
+print(console)
 pygame.init()
 running = 1
 while running:
@@ -200,7 +201,7 @@ while running:
             running = False
 
     # Fill the background with white
-    screen.fill((255, 255, 255))
+    console.fill((255, 255, 255))
 
     # Draw a solid blue circle in the center
     pygame.draw.circle(console, (0, 0, 255), (250, 250), 75)
@@ -210,3 +211,4 @@ while running:
 
 # Done! Time to quit.
 pygame.quit()
+'''

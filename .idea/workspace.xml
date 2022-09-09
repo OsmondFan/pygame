@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5207ee39-b013-4ff6-a22e-bc135cb0da75" name="Changes" comment="Buggos are bugging">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Applications/article 1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Applications/article 1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Applications/pygame.py" beforeDir="false" afterPath="$PROJECT_DIR$/Applications/pygame.py" afterDir="false" />
+    <list default="true" id="5207ee39-b013-4ff6-a22e-bc135cb0da75" name="Changes" comment="Buggos are annoying(not Ocellus from Mlp)">
       <change beforePath="$PROJECT_DIR$/N.py" beforeDir="false" afterPath="$PROJECT_DIR$/N.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -298,7 +295,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662725005963</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Buggos are annoying(not Ocellus from Mlp)">
+      <created>1662727203206</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1662727203206</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -323,7 +327,8 @@
     <MESSAGE value="Fixed Bugs" />
     <MESSAGE value="Bugs Need To Fix:&#10;&#10;Display" />
     <MESSAGE value="Buggos are bugging" />
-    <option name="LAST_COMMIT_MESSAGE" value="Buggos are bugging" />
+    <MESSAGE value="Buggos are annoying(not Ocellus from Mlp)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Buggos are annoying(not Ocellus from Mlp)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
