@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5207ee39-b013-4ff6-a22e-bc135cb0da75" name="Changes" comment="Fixed Bugs">
-      <change afterPath="$PROJECT_DIR$/Applications/article 1.py" afterDir="false" />
+    <list default="true" id="5207ee39-b013-4ff6-a22e-bc135cb0da75" name="Changes" comment="Bugs Need To Fix:&#10;&#10;Display">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/N.py" beforeDir="false" afterPath="$PROJECT_DIR$/N.py" afterDir="false" />
     </list>
@@ -45,6 +44,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Applications" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -275,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662181606697</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Bugs Need To Fix:&#10;&#10;Display">
+      <created>1662713597082</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1662713597082</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -298,7 +305,8 @@
     <MESSAGE value="Added Moviepy" />
     <MESSAGE value="Added Moviepy(completed)" />
     <MESSAGE value="Fixed Bugs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed Bugs" />
+    <MESSAGE value="Bugs Need To Fix:&#10;&#10;Display" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bugs Need To Fix:&#10;&#10;Display" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

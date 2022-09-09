@@ -52,6 +52,9 @@ class display:
         self.screen = [[0+x,0+y],[size[0]+x,size[1]+y]]
         return True
 
+    def set_caption(self,name):
+        pass
+
 def set_mode(self,size=(0,0),flags=0,depth=0,display=0,vsync=0):
     global operating_system
     operating_system = pygame.display.set_mode(size, flags, depth, display, vsync)
@@ -144,17 +147,32 @@ class screen:
         screen.blit(constant, (position[0]*scale_rate[0],position[1]*scale_rate[1]))
 
 
+class mixer:
+    def __init__(self):
+        pass
+
+    def init(self):
+        pass
+
+
+class time:
+    def Clock():
+        def __init__():
+            pass
 
 
 
 
-init()
 
 
+
+
+
+mixer = mixer()
 display = display()
 universal = universal()
 screen = screen()
 event = event()
 
-universal.display().set_mode((0,500),(0,500))
+universal.display()
 
