@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5207ee39-b013-4ff6-a22e-bc135cb0da75" name="Changes" comment="Buggos are fixed">
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="5207ee39-b013-4ff6-a22e-bc135cb0da75" name="Changes" comment="Oh no buggos are back">
+      <change afterPath="$PROJECT_DIR$/Applications/test1/pygame.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Applications/article 1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Applications/article 1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Applications/article 1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Applications/test1/article 1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Applications/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Applications/test1/test/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Applications/pygame.py" beforeDir="false" afterPath="$PROJECT_DIR$/Applications/test1/test/NRON.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/N.py" beforeDir="false" afterPath="$PROJECT_DIR$/N.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +30,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectId" id="2AFUHOOEbhtQrnVeu60Afl4iDqv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -46,11 +51,14 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Applications/test1" />
+      <recent name="$PROJECT_DIR$/Applications/test1/test" />
+      <recent name="$PROJECT_DIR$/Applications/test" />
       <recent name="$PROJECT_DIR$/Applications" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.article 1">
+  <component name="RunManager" selected="Python.N">
     <configuration name="N" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pygame" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -93,7 +101,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="article 1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pygame" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -101,11 +109,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pygame" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Applications/test1" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pygame/__init__.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Applications/test1/article 1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -126,7 +134,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Applications/article 1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Applications/test/article 1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -179,19 +187,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.main" />
-      <item itemvalue="Python.article 1" />
       <item itemvalue="Python.N" />
       <item itemvalue="Python.Pygame" />
-      <item itemvalue="Python.__init__" />
+      <item itemvalue="Python.article 1 (1)" />
+      <item itemvalue="Python.article 1" />
       <item itemvalue="Python.pygame" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.article 1" />
         <item itemvalue="Python.N" />
+        <item itemvalue="Python.article 1 (1)" />
+        <item itemvalue="Python.article 1" />
         <item itemvalue="Python.Pygame" />
         <item itemvalue="Python.pygame" />
-        <item itemvalue="Python.__init__" />
       </list>
     </recent_temporary>
   </component>
@@ -312,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662727793232</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Oh no buggos are back">
+      <created>1662728996070</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1662728996070</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -339,7 +354,8 @@
     <MESSAGE value="Buggos are bugging" />
     <MESSAGE value="Buggos are annoying(not Ocellus from Mlp)" />
     <MESSAGE value="Buggos are fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Buggos are fixed" />
+    <MESSAGE value="Oh no buggos are back" />
+    <option name="LAST_COMMIT_MESSAGE" value="Oh no buggos are back" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

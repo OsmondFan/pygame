@@ -1,7 +1,6 @@
 # Pygame template - skeleton for a new pygame project
 import time
 import pygame
-import random
 
 WIDTH = 360
 HEIGHT = 480
@@ -14,8 +13,10 @@ RED = (255, 0, 0)
 GREEN = (0, 255, 0)
 BLUE = (0, 0, 255)
 
+
 # initialize pygame and create window
 pygame.init()
+print(pygame.event.get())
 #screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("My Game")
 
@@ -25,14 +26,18 @@ running = True
 count = 0
 start = time.time()
 
+
 while running:
     # keep loop running at the right speed
     # Process input (events)
+    #print(pygame.event.get())
+    '''
     for event in pygame.event.get():
         # check for closing window
         if event.type == pygame.QUIT:
             running = False
-        print(event)
+    '''
+
 
     # Update
     count+=1

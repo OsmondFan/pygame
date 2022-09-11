@@ -1,6 +1,11 @@
 import importlib
 
-import pygame
+import pygame as Pygame
+
+import sys  # 导入sys模块
+#sys.setrecursionlimit(1000)  # 将默认的递归深度修改为1000
+
+
 
 #import moviepy
 
@@ -27,7 +32,7 @@ class display:
         self.screensize = (size[0],size[1])
 
     def flip(self):
-        pygame.display.update(rectangle=(self.screen[0][0],self.screen[0][1],self.screen[1][0],self.screen[1][1]))
+        Pygame.display.update(rectangle=(self.screen[0][0],self.screen[0][1],self.screen[1][0],self.screen[1][1]))
 
     def update(self,rectangle=None):
         '''
@@ -47,9 +52,9 @@ class display:
         '''
 
         if rectangle == None:
-            pygame.display.update(rectangle=(self.screen[0][0],self.screen[0][1],self.screen[1][0],self.screen[1][1]))
+            Pygame.display.update(rectangle=(self.screen[0][0],self.screen[0][1],self.screen[1][0],self.screen[1][1]))
         else:
-            pygame.display.update(rectangle=())
+            Pygame.display.update(rectangle=())
 
     def move_window(self,x,y):
         self.screen = [[0+x,0+y],[size[0]+x,size[1]+y]]
@@ -60,7 +65,7 @@ class display:
 
 def set_mode(self,size=(0,0),flags=0,depth=0,display=0,vsync=0):
     global operating_system
-    operating_system = pygame.display.set_mode(size, flags, depth, display, vsync)
+    operating_system = Pygame.display.set_mode(size, flags, depth, display, vsync)
 
 def init():
     pass
@@ -72,10 +77,10 @@ class universal:
     class display:
         def set_mode(self,start=(0,0),end=(0,0)):
             global console
-            console = pygame.display.set_mode((start[1],end[1]))
+            console = Pygame.display.set_mode((start[1],end[1]))
 
         def set_caption(self,name):
-            pygame.display.set_caption(str(name))
+            Pygame.display.set_caption(str(name))
 
 
 class movie:
@@ -87,15 +92,28 @@ class movie:
 
 
 
-class event:
+class EVENT:
     def __init__(self):
-        pass
+        self.event = []
 
     def get(self):
-        return pygame.event.get()
+        print('hi')
+        self.event = Pygame.event.get()
+        return self.event
 
-
-
+    '''
+    error: Event reacheed maxium recursion depth
+    fix: because the name is also called pygame.
+    it continues to do the same line for many times.
+    Also, the "event" name cannot be used as a 
+    variable.
+    
+    Pygame.init()
+    
+    event = EVENT()
+    
+    print(event.get())
+    '''
 
 class screen:
     def __init__(self):
@@ -107,7 +125,7 @@ class screen:
         pass
 
     def fill(self,color=(0,0,0)):
-        pygame.console.fill(color)
+        Pygame.console.fill(color)
 
 
     def blit(self,target=None,position=None):
@@ -171,8 +189,8 @@ class time:
 fonts = []
 class font:
     def Font(self,name="Times New Roman",size=12):
-        fonts.append(pygame.font.Font(name,size))
-        return pygame.font.Font(name,size)
+        fonts.append(Pygame.font.Font(name,size))
+        return Pygame.font.Font(name,size)
 
 
 
@@ -185,7 +203,7 @@ mixer = mixer()
 display = display()
 universal = universal()
 screen = screen()
-event = event()
+event = EVENT()
 
 #universal.display()
 
