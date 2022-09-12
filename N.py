@@ -1,9 +1,10 @@
 import importlib
 
 import pygame as Pygame
+import threading
 
 import sys  # 导入sys模块
-#sys.setrecursionlimit(1000)  # 将默认的递归深度修改为1000
+sys.setrecursionlimit(1000)  # 将默认的递归深度修改为1000
 
 
 
@@ -17,10 +18,10 @@ from pygame import*
 operating_system = None
 print('Hi')
 
-console = None
+
 scale_rate = (1,1)#Meaning that the scale is 1x horizontal, 1x vertical
 
-class display:
+class DISPLAY:
     def init(self):
         return False
 
@@ -30,9 +31,11 @@ class display:
     def set_mode(self,size=(0,0),flags=0,depth=0,display=0,vsync=0):
         self.screen = [[0,0],[size[0],size[1]]]
         self.screensize = (size[0],size[1])
+        return console
+
 
     def flip(self):
-        Pygame.display.update(rectangle=(self.screen[0][0],self.screen[0][1],self.screen[1][0],self.screen[1][1]))
+        threading.Thread(target=Pygame.display.update,args=(self.screen[0][0],self.screen[0][1],self.screen[1][0],self.screen[1][1]))
 
     def update(self,rectangle=None):
         '''
@@ -70,14 +73,17 @@ def set_mode(self,size=(0,0),flags=0,depth=0,display=0,vsync=0):
 def init():
     pass
 
-class universal:
+class UNIVERSAL:
     def __init__(self):
         pass
 
     class display:
-        def set_mode(self,start=(0,0),end=(0,0)):
+        def set_mode(self,window=(0,0)):
             global console
-            console = Pygame.display.set_mode((start[1],end[1]))
+
+            print(window[0],window[1],type(window[0]),type(window[1]))
+            console = Pygame.display.set_mode((window[0],window[1]))
+            return console
 
         def set_caption(self,name):
             Pygame.display.set_caption(str(name))
@@ -115,9 +121,10 @@ class EVENT:
     print(event.get())
     '''
 
-class screen:
+class SCREEN:
     def __init__(self):
         pass
+
     def init(self):
         pass
 
@@ -173,7 +180,7 @@ class screen:
         '''
 
 
-class mixer:
+class MIXER:
     def __init__(self):
         pass
 
@@ -198,16 +205,12 @@ class font:
 
 
 
-
-mixer = mixer()
-display = display()
-universal = universal()
-screen = screen()
-event = EVENT()
+Pygame.init()
 
 #universal.display()
 
-#universal.display.set_mode((0,500),(0,500))
+
+UNIVERSAL.display().set_mode((500,500))
 '''
 print(console)
 pygame.init()

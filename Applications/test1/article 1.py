@@ -1,9 +1,8 @@
 # Pygame template - skeleton for a new pygame project
 import time
-import pygame
+import nygame
 
-WIDTH = 360
-HEIGHT = 480
+
 FPS = 30
 
 # define colors
@@ -15,16 +14,16 @@ BLUE = (0, 0, 255)
 
 
 # initialize pygame and create window
-pygame.init()
-print(pygame.event.get())
-#screen = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("My Game")
+nygame.init()
+print(nygame.event.get())
+screen = nygame.display.set_mode((600, 600))
+nygame.display.set_caption("My Game")
 
 
 # Game loop
 running = True
 count = 0
-start = time.time()
+
 
 
 while running:
@@ -40,14 +39,12 @@ while running:
 
 
     # Update
-    count+=1
-    now = time.time()
-    fps = count/(now-start)
+
     # Draw / render
     screen.fill(BLACK)
 
     # *after* drawing everything, flip the display
-    pygame.display.flip()
+    nygame.display.flip()
 
-pygame.quit()
+nygame.quit()
 
