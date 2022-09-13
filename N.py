@@ -4,7 +4,7 @@ import pygame as Pygame
 import threading
 
 import sys  # 导入sys模块
-sys.setrecursionlimit(1000)  # 将默认的递归深度修改为1000
+sys.setrecursionlimit(100000000)  # 将默认的递归深度修改为100000000
 
 
 
@@ -31,6 +31,7 @@ class DISPLAY:
     def set_mode(self,size=(0,0),flags=0,depth=0,display=0,vsync=0):
         self.screen = [[0,0],[size[0],size[1]]]
         self.screensize = (size[0],size[1])
+        print(console)
         return console
 
 
@@ -133,6 +134,7 @@ class SCREEN:
 
     def fill(self,color=(0,0,0)):
         Pygame.console.fill(color)
+
 
 
     def blit(self,target=None,position=None):

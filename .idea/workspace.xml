@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5207ee39-b013-4ff6-a22e-bc135cb0da75" name="Changes" comment="Fixed event">
-      <change afterPath="$PROJECT_DIR$/Applications/test1/nygame.py" afterDir="false" />
+    <list default="true" id="5207ee39-b013-4ff6-a22e-bc135cb0da75" name="Changes" comment="SUCCESS!!!!!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Applications/test1/article 1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Applications/test1/article 1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Applications/test1/pygame.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/N.py" beforeDir="false" afterPath="$PROJECT_DIR$/N.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -334,7 +331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662867238723</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="SUCCESS!!!!!">
+      <created>1662991827886</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1662991827886</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -363,7 +367,8 @@
     <MESSAGE value="Buggos are fixed" />
     <MESSAGE value="Oh no buggos are back" />
     <MESSAGE value="Fixed event" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed event" />
+    <MESSAGE value="SUCCESS!!!!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="SUCCESS!!!!!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
