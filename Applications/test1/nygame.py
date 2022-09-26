@@ -1,5 +1,4 @@
-from N import*
-from N import console
+from Applications.test1.N import*
 
 imports = IMPORTS()
 mixer = MIXER()

@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5207ee39-b013-4ff6-a22e-bc135cb0da75" name="Changes" comment="Little Edit">
-      <change afterPath="$PROJECT_DIR$/Applications/test1/AimlessOS.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Applications/test1/one.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Applications/test1/two.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Applications/test1/article 1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Applications/test1/AimlessOS.py" beforeDir="false" afterPath="$PROJECT_DIR$/Applications/test1/AimlessOS.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Applications/test1/nygame.py" beforeDir="false" afterPath="$PROJECT_DIR$/Applications/test1/nygame.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/N.py" beforeDir="false" afterPath="$PROJECT_DIR$/N.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Applications/test1/test/NRON.py" beforeDir="false" afterPath="$PROJECT_DIR$/Applications/test1/test/NRON.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/N.py" beforeDir="false" afterPath="$PROJECT_DIR$/Applications/test1/N.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +57,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.nygame">
+  <component name="RunManager" selected="Python.N (1)">
     <configuration name="AimlessOS" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pygame" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -81,6 +79,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="N (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pygame" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Applications/test1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Applications/test1/N.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="N" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pygame" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -93,28 +112,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/N.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="article 1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pygame" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Applications/test1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Applications/test1/article 1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Applications/test1/test/N.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -189,18 +187,18 @@
     <list>
       <item itemvalue="Python.main" />
       <item itemvalue="Python.AimlessOS" />
+      <item itemvalue="Python.N (1)" />
       <item itemvalue="Python.nygame" />
       <item itemvalue="Python.two" />
       <item itemvalue="Python.N" />
-      <item itemvalue="Python.article 1 (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.N (1)" />
+        <item itemvalue="Python.AimlessOS" />
         <item itemvalue="Python.nygame" />
         <item itemvalue="Python.N" />
-        <item itemvalue="Python.AimlessOS" />
         <item itemvalue="Python.two" />
-        <item itemvalue="Python.article 1 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -349,7 +347,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663067494213</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Little Edit">
+      <created>1664191106992</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1664191106992</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

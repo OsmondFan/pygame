@@ -244,3 +244,4 @@ while running:
 pygame.quit()
 '''
 
+threading.Thread(target=importlib.import_module,args=('one',)).start()
