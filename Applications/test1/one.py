@@ -2,8 +2,6 @@
 import time
 import nygame
 
-
-
 FPS = 30
 
 # define colors

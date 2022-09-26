@@ -36,7 +36,7 @@ class DISPLAY:
 
 
     def flip(self):
-        threading.Thread(target=Pygame.display.update,args=(self.screen[0][0],self.screen[0][1],self.screen[1][0],self.screen[1][1]))
+        a = threading.Thread(target=Pygame.display.update,args=(self.screen[0][0],self.screen[0][1],self.screen[1][0],self.screen[1][1])).start()
 
     def update(self,rectangle=None):
         '''
@@ -196,13 +196,20 @@ class time:
             pass
 
 fonts = []
-class font:
+class FONT:
     def Font(self,name="Times New Roman",size=12):
         fonts.append(Pygame.font.Font(name,size))
         return Pygame.font.Font(name,size)
 
 
 
+
+class IMPORTS:
+    def __init__(self):
+        self.imported = []
+
+    def imports(self,modulename):
+        self.imported.append(threading.Thread(target=importlib.import_module,args=(modulename,)).start())
 
 
 
@@ -236,3 +243,4 @@ while running:
 # Done! Time to quit.
 pygame.quit()
 '''
+
