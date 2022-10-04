@@ -10,8 +10,8 @@ sys.setrecursionlimit(100000000)  # 将默认的递归深度修改为100000000
 
 #import moviepy
 
-import threading
-
+#import threading
+import nylon
 
 
 from pygame import*
@@ -209,7 +209,7 @@ class IMPORTS:
         self.imported = []
 
     def imports(self,modulename):
-        self.imported.append(threading.Thread(target=importlib.import_module,args=(modulename,)).start())
+        self.imported.append(nylon.process(importlib.import_module(modulename)))
 
 
 
@@ -244,4 +244,5 @@ while running:
 pygame.quit()
 '''
 
-threading.Thread(target=importlib.import_module,args=('one',)).start()
+nylon.process(importlib.import_module('one'))
+

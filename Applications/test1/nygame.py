@@ -1,4 +1,4 @@
-from Applications.test1.N import*
+from N import*
 
 imports = IMPORTS()
 mixer = MIXER()
@@ -7,3 +7,5 @@ universal = UNIVERSAL()
 screen = SCREEN()
 event = EVENT()
 
+def init():
+    pass

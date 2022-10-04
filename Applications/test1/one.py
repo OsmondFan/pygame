@@ -15,7 +15,7 @@ BLUE = (0, 0, 255)
 # initialize pygame and create window
 nygame.init()
 print(nygame.event.get())
-screen = nygame.display.set_mode((500, 500))
+screen = nygame.display.set_mode((200, 200))
 nygame.display.set_caption("My Game")
 
 
@@ -49,3 +49,5 @@ while running:
 
 nygame.quit()
 
+def off():
+    exit(1)
