@@ -12,7 +12,7 @@ sys.setrecursionlimit(100000000)  # 将默认的递归深度修改为100000000
 
 #import threading
 import nylon
-
+nylon.event = nylon.EVENT()
 
 from pygame import*
 operating_system = None
@@ -36,7 +36,8 @@ class DISPLAY:
 
 
     def flip(self):
-        a = threading.Thread(target=Pygame.display.update,args=(self.screen[0][0],self.screen[0][1],self.screen[1][0],self.screen[1][1])).start()
+        #a = threading.Thread(target=Pygame.display.update,args=(self.screen[0][0],self.screen[0][1],self.screen[1][0],self.screen[1][1])).start()
+        Pygame.display.update(self.screen[0][0], self.screen[0][1], self.screen[1][0], self.screen[1][1])
 
     def update(self,rectangle=None):
         '''
@@ -104,8 +105,9 @@ class EVENT:
         self.event = []
 
     def get(self):
-        print('hi')
-        self.event = Pygame.event.get()
+        print('2r')
+        self.event = nylon.event.get()
+        print('3')
         return self.event
 
     '''
@@ -209,8 +211,12 @@ class IMPORTS:
         self.imported = []
 
     def imports(self,modulename):
-        self.imported.append(nylon.process(importlib.import_module(modulename)))
+        self.imported.append(importlib.import_module(modulename))
 
+
+class PROCESSOR:
+    def __init__(self):
+        self.status = 1
 
 
 
@@ -243,6 +249,4 @@ while running:
 # Done! Time to quit.
 pygame.quit()
 '''
-
-nylon.process(importlib.import_module('one'))
 

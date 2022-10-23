@@ -15,8 +15,8 @@ BLUE = (0, 0, 255)
 
 
 # initialize pygame and create window
+
 nygame.init()
-print(nygame.event.get())
 screen = nygame.display.set_mode((500, 500))
 nygame.display.set_caption("My Game")
 
@@ -28,26 +28,27 @@ running = True
 count = 0
 
 
+def run():
+    running=True
+    while running:
+        # keep loop running at the right speed
+        # Process input (events)
+        #print(pygame.event.get())
 
-while running:
-    # keep loop running at the right speed
-    # Process input (events)
-    #print(pygame.event.get())
-
-    for event in nygame.event.get():
-        # check for closing window
-        if event.type == nygame.QUIT:
-            running = False
+        for event in nygame.event.get():
+            # check for closing window
+            if event.type == nygame.QUIT:
+                running = False
 
 
 
-    # Update
+        # Update
+        print('two')
+        # Draw / render
+        screen.fill(GREEN)
 
-    # Draw / render
-    screen.fill(GREEN)
+        # *after* drawing everything, flip the display
+        nygame.display.flip()
 
-    # *after* drawing everything, flip the display
-    nygame.display.flip()
-
-nygame.quit()
+    nygame.quit()
 
