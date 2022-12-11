@@ -1,7 +1,6 @@
 import importlib
 
 import pygame as Pygame
-import threading
 
 import sys  # 导入sys模块
 sys.setrecursionlimit(100000000)  # 将默认的递归深度修改为100000000
@@ -11,10 +10,10 @@ sys.setrecursionlimit(100000000)  # 将默认的递归深度修改为100000000
 #import moviepy
 
 #import threading
-import nylon
+from Applications.test1.test import nylon
+
 nylon.event = nylon.EVENT()
 
-from pygame import*
 operating_system = None
 print('Hi')
 

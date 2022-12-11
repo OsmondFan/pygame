@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5207ee39-b013-4ff6-a22e-bc135cb0da75" name="Changes" comment="Nylon One Module Added">
+    <list default="true" id="5207ee39-b013-4ff6-a22e-bc135cb0da75" name="Changes" comment="Event and Threading Problem">
+      <change afterPath="$PROJECT_DIR$/Applications/nygame.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Applications/test1/N.py" beforeDir="false" afterPath="$PROJECT_DIR$/Applications/test1/N.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Applications/test1/nylon.py" beforeDir="false" afterPath="$PROJECT_DIR$/Applications/test1/nylon.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Applications/test1/AimlessOS.py" beforeDir="false" afterPath="$PROJECT_DIR$/Applications/AimlessOS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Applications/test1/N.py" beforeDir="false" afterPath="$PROJECT_DIR$/Applications/N.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Applications/test1/nygame.py" beforeDir="false" afterPath="$PROJECT_DIR$/Applications/test1/nygame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Applications/test1/nylon.py" beforeDir="false" afterPath="$PROJECT_DIR$/Applications/test1/test/nylon.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Applications/test1/one.py" beforeDir="false" afterPath="$PROJECT_DIR$/Applications/test1/one.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Applications/test1/two.py" beforeDir="false" afterPath="$PROJECT_DIR$/Applications/test1/two.py" afterDir="false" />
     </list>
@@ -50,10 +53,10 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Applications/test1" />
       <recent name="$PROJECT_DIR$/Applications/test1/test" />
-      <recent name="$PROJECT_DIR$/Applications/test" />
       <recent name="$PROJECT_DIR$/Applications" />
+      <recent name="$PROJECT_DIR$/Applications/test1" />
+      <recent name="$PROJECT_DIR$/Applications/test" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -70,7 +73,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Applications/test1/AimlessOS.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Applications/AimlessOS.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -79,7 +82,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="N (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="N" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pygame" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -91,7 +94,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Applications/test1/N.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Applications/N.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -154,7 +157,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Applications/test1/nygame.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Applications/nygame.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -175,7 +178,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Applications/test1/nylon.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Applications/test1/test/nylon.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -368,7 +371,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664896329072</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Event and Threading Problem">
+      <created>1666498617863</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1666498617863</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -401,7 +411,8 @@
     <MESSAGE value="Little Edit" />
     <MESSAGE value="Major Edit" />
     <MESSAGE value="Nylon One Module Added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Nylon One Module Added" />
+    <MESSAGE value="Event and Threading Problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Event and Threading Problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,6 +1,5 @@
 # Pygame template - skeleton for a new pygame project
-import time
-import nygame
+from Applications import nygame
 
 FPS = 30
 
